@@ -39,5 +39,26 @@ public class OperatoryArytmeryczne {
         // od tej pory a = 9
         a %= b;
         System.out.println("a = a % b: " + a);
+
+        a = a + 1;
+        System.out.println("a = a + 1: " + a);
+        a += 1;
+        System.out.println("a += 1: " + a);
+
+        // --------------------------------------------------------
+        // inkrementacja - zwiększanie wartości danej zmiennej o 1
+        a++;
+        System.out.println("a++: " + a);
+        // dekrementacja - zmniejszenie wartości danej zmiennej  o 1
+        a--;
+        System.out.println("a--: " + a);
+
+        ++a;
+        System.out.println("++a: " + a);
+        --a;
+        System.out.println("--a: " + a);
+        // a++ - najpierw pobiera daną wartość, a później '+' do niej 1
+        // ++a - najpiwerw '+' 1 a póżniej pobiera danąwartość
+
     }
 }
