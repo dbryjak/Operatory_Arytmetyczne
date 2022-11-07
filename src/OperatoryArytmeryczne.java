@@ -6,7 +6,7 @@ public class OperatoryArytmeryczne {
         System.out.println(2 * 4);
         System.out.println(4 / 2);
         System.out.println(10 % 3);
-        // % wynikeim jest tylko reszta z dzielenia
+        // % wynikiem jest tylko reszta z dzielenia
         // 10 / 3 = 3, gdyż 3*3=9, a 10 - 9 = 1 i ta 1 to ta reszta z dzielenia
 
         double a = 9;
